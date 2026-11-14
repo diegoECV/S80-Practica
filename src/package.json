@@ -1,0 +1,13 @@
+{
+  "name": "k8s-backend-api",
+  "version": "1.0.0",
+  "description": "Backend API para práctica S08 - Kubernetes ConfigMaps, Secrets y NodePort",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0"
+  }
+}

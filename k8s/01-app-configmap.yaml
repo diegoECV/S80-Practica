@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-configmap
+  namespace: practica-s08
+  labels:
+    app: backend-api
+    environment: practice
+    session: s08
+data:
+  # Nombre del servicio Kubernetes de MongoDB (ClusterIP) para resolución DNS interna
+  DB_HOST: "mongo-service"
+  
+  # Nombre de la base de datos de la aplicación
+  DB_NAME: "appdb"
+  
+  # Puerto en el que escucha el servidor Backend
+  APP_PORT: "3000"
