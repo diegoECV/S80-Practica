@@ -66,3 +66,4 @@ spec:
       port: 3000        # Puerto interno del servicio
       targetPort: 3000  # Puerto del contenedor (APP_PORT)
       nodePort: 30080   # Puerto estático expuesto en el nodo Minikube (rango 30000-32767)
+

@@ -167,3 +167,4 @@ Para eliminar todos los recursos creados en esta práctica:
 ```bash
 kubectl delete namespace practica-s08
 ```
+

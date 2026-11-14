@@ -337,3 +337,4 @@ app.listen(APP_PORT, '0.0.0.0', () => {
   console.log(`[INFO] Servidor Backend escuchando en el puerto ${APP_PORT}`);
   console.log(`[INFO] Configuración inyectada: DB_HOST=${DB_HOST}, DB_NAME=${DB_NAME}, DB_USER=${DB_USER}`);
 });
+
